@@ -25,15 +25,15 @@ Bugs should be explained detaily. All bug issues should include the following pa
 ## Label
 
 All issues should be labeled adequately. Issue may have multiple labels. Labeling is guided as following:
-- Feature: Will be used for new features to the project
-- Bugfix: Will be used for bug fixes, this is for development environment bugfixes.
-- Improvement: Will be used for improvement tasks which are neither adds new features nor fixes a bug
-- Hotfix: Will be used for critical bugfixes to the production environment which may not wait regular release cycle.
-- Task: Will be used for tasks. It involves non code tasks.
-- Story: Will be used for bigger features which may contain multiple smaller features. All smaller features should be created separately and linked to a story if necessary.
-- Epic: Critical and big task which will effect multiple aspects of project. Epics can contain multiple stories and features.
-- Test: Will be used for test related issues
-- Docs: Will be used for documentation related issues
+- **Feature**: Will be used for new features to the project
+- **Bugfix**: Will be used for bug fixes, this is for development environment bugfixes.
+- **Improvement**: Will be used for improvement tasks which are neither adds new features nor fixes a bug
+- **Hotfix**: Will be used for critical bugfixes to the production environment which may not wait regular release cycle.
+- **Task**: Will be used for tasks. It involves non code tasks.
+- **Story**: Will be used for bigger features which may contain multiple smaller features. All smaller features should be created separately and linked to a story if necessary.
+- **Epic**: Critical and big task which will effect multiple aspects of project. Epics can contain multiple stories and features.
+- **Test**: Will be used for test related issues
+- **Docs**: Will be used for documentation related issues
 
 If necessary additional labels could be created.
 
