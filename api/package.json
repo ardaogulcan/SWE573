@@ -1,0 +1,38 @@
+{
+  "name": "tweetboard-api",
+  "version": "0.0.1",
+  "description": "RESTFUL API for TweetBoard",
+  "main": "dist",
+  "scripts": {
+    "dev": "TYPE=development nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
+    "build": "TYPE=production babel src -s -D -d dist --presets es2015,stage-0",
+    "start": "TYPE=production node dist",
+    "prestart": "npm run -s build",
+    "lint": "eslint src",
+    "test": "TYPE=test mocha src/test --recursive --timeout 10000"
+  },
+  "repository": "ardaogulcan/TweetBoard-SWE573",
+  "private": true,
+  "author": "Arda Pektaş <ardaogulcan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "compression": "^1.5.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.9.2"
+  }
+}
