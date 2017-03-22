@@ -1,0 +1,13 @@
+{
+    "env": {
+      "port": 0000
+    },
+    "body": {
+      "limit": "0mb"
+    },
+    "cors": {
+      "allowedHeaders": ["Content-Type", "Authorization", "Content-Length", "X-Requested-With"],
+      "origin": "*",
+      "methods": ["GET", "PUT", "POST", "DELETE", "OPTIONS"]
+    }
+}
