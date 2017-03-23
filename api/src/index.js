@@ -6,7 +6,7 @@ import bodyParser from 'body-parser';
 import v1 from './v1';
 import config from './configs/environment';
 
-const app = express();
+const app =  express();
 app.server = http.createServer(app);
 
 app.use(compression());
